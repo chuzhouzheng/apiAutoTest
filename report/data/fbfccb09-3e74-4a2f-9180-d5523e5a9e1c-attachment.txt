@@ -1,0 +1,17 @@
+[32m2021-07-21 19:05:07.024[0m | [34m[1mDEBUG   [0m | [36mapi.base_requests[0m:[36msend_request[0m:[36m38[0m - [34m[1m用例进行处理前数据: 
+ 接口路径: users/${userId} 
+ 请求参数:  
+  提取参数:  
+ 后置sql:  
+ 预期结果: {"$.meta":{"msg": "删除成功", "status": 200}} 
+ [0m
+[32m2021-07-21 19:05:07.025[0m | [31m[1mERROR   [0m | [36mtools[0m:[36mconvert_json[0m:[36m84[0m - [31m[1mExpecting property name enclosed in double quotes: line 1 column 2 (char 1)[0m
+[32m2021-07-21 19:05:07.067[0m | [1mINFO    [0m | [36mapi.base_requests[0m:[36msend_api[0m:[36m99[0m - [1m
+最终请求地址:http://api.zreai.com:606/api/private/v1/users/944
+请求方法:delete
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36', 'num': '3', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MjY4NjU1MDMsImV4cCI6MTYyNjk1MTkwM30.fb8VUZvkFYE4HW3_3aQZ_0h70eYc9YqGwYIqGVX8U8s'}
+请求参数:None
+上传文件:None
+响应数据:{'data': None, 'meta': {'msg': '删除成功', 'status': 200}}[0m
+[32m2021-07-21 19:05:07.070[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36massert_result[0m:[36m130[0m - [1m第1个断言,实际结果:{'msg': '删除成功', 'status': 200} | 预期结果:{'msg': '删除成功', 'status': 200} 
+断言结果 True[0m

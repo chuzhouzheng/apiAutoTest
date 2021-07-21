@@ -1,0 +1,111 @@
+[ {
+  "uid" : "43f778dc78ca24be",
+  "name" : "调试运算新功能,从响应提取后运算",
+  "time" : {
+    "start" : 1626865507122,
+    "stop" : 1626865507972,
+    "duration" : 850
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48cece90037d5f5",
+  "name" : "添加用户正常接口数据",
+  "time" : {
+    "start" : 1626865504121,
+    "stop" : 1626865505982,
+    "duration" : 1861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d7ffd1ad01d2ad4",
+  "name" : "删除用户zy7y",
+  "time" : {
+    "start" : 1626865507024,
+    "stop" : 1626865507072,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9027511b102b2e32",
+  "name" : "post请求实现登录",
+  "time" : {
+    "start" : 1626865502955,
+    "stop" : 1626865503104,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8004a37bf8745ec1",
+  "name" : "修改用户状态为2",
+  "time" : {
+    "start" : 1626865506975,
+    "stop" : 1626865507019,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75fff848cbb498d7",
+  "name" : "调试自定义函数功能",
+  "time" : {
+    "start" : 1626865507077,
+    "stop" : 1626865507119,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab676e3abe986596",
+  "name" : "get请求查询用户数据列表",
+  "time" : {
+    "start" : 1626865503985,
+    "stop" : 1626865504047,
+    "duration" : 62
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5827ac03d20591d7",
+  "name" : "调试函数sum_data(),从path需要运算",
+  "time" : {
+    "start" : 1626865507988,
+    "stop" : 1626865508030,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14752ace70a507c0",
+  "name" : "get请求实现登录",
+  "time" : {
+    "start" : 1626865501859,
+    "stop" : 1626865502952,
+    "duration" : 1093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4dc9295ad5a92ab",
+  "name" : "get请求查询用户数据列表",
+  "time" : {
+    "start" : 1626865503108,
+    "stop" : 1626865503980,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "780493e83a60dbc7",
+  "name" : "修改用户状态接口",
+  "time" : {
+    "start" : 1626865505985,
+    "stop" : 1626865506970,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

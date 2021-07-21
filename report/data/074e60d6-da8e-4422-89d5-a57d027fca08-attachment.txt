@@ -1,0 +1,19 @@
+[32m2021-07-21 19:05:02.955[0m | [34m[1mDEBUG   [0m | [36mapi.base_requests[0m:[36msend_request[0m:[36m38[0m - [34m[1m用例进行处理前数据: 
+ 接口路径: login 
+ 请求参数: {"username": "admin", "password": "123456"} 
+  提取参数: {"token": "$.data.token", "userId": "$.data.id", "meta": "$.meta"} 
+ 后置sql: select * from cases where id=${userId}; 
+ 预期结果: {"$.meta":{ "msg": "登录成功", "status": 200 }} 
+ [0m
+[32m2021-07-21 19:05:03.099[0m | [1mINFO    [0m | [36mapi.base_requests[0m:[36msend_api[0m:[36m99[0m - [1m
+最终请求地址:http://api.zreai.com:606/api/private/v1/login
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36', 'num': '3'}
+请求参数:{'username': 'admin', 'password': '123456'}
+上传文件:None
+响应数据:{'data': {'id': 500, 'rid': 0, 'username': 'admin', 'mobile': '13884427351', 'email': 'fffffffffff@qq.com', 'token': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjUwMCwicmlkIjowLCJpYXQiOjE2MjY4NjU1MDMsImV4cCI6MTYyNjk1MTkwM30.fb8VUZvkFYE4HW3_3aQZ_0h70eYc9YqGwYIqGVX8U8s'}, 'meta': {'msg': '登录成功', 'status': 200}}[0m
+[32m2021-07-21 19:05:03.100[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36mhandle_extra[0m:[36m111[0m - [1m加入依赖字典,key: token, 对应value: $.data.token[0m
+[32m2021-07-21 19:05:03.101[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36mhandle_extra[0m:[36m111[0m - [1m加入依赖字典,key: userId, 对应value: $.data.id[0m
+[32m2021-07-21 19:05:03.102[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36mhandle_extra[0m:[36m111[0m - [1m加入依赖字典,key: meta, 对应value: $.meta[0m
+[32m2021-07-21 19:05:03.103[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36massert_result[0m:[36m130[0m - [1m第1个断言,实际结果:{'msg': '登录成功', 'status': 200} | 预期结果:{'msg': '登录成功', 'status': 200} 
+断言结果 True[0m

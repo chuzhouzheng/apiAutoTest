@@ -1,0 +1,120 @@
+{
+    "data": {
+        "total": 12,
+        "pagenum": 1,
+        "users": [
+            {
+                "id": 592,
+                "role_name": "气温",
+                "username": "admin1",
+                "create_time": 1623122659,
+                "mobile": "18455555555",
+                "email": "adsad@qq.com",
+                "mg_state": false
+            },
+            {
+                "id": 541,
+                "role_name": "SuperManage",
+                "username": "大佬好",
+                "create_time": 1617870163,
+                "mobile": "18855554448",
+                "email": "454@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 544,
+                "role_name": "SuperManage",
+                "username": "谭雪琴",
+                "create_time": 1619017105,
+                "mobile": "18392199836",
+                "email": "234@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 591,
+                "role_name": "SuperManage",
+                "username": "admins",
+                "create_time": 1623122183,
+                "mobile": "18544444444",
+                "email": "dad@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 500,
+                "role_name": "超级管理员",
+                "username": "admin",
+                "create_time": 1486720211,
+                "mobile": "13884427351",
+                "email": "fffffffffff@qq.com",
+                "mg_state": false
+            },
+            {
+                "id": 542,
+                "role_name": "超级管理员",
+                "username": "张雪琴",
+                "create_time": 1618738545,
+                "mobile": "13688888888",
+                "email": "1933586028@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 543,
+                "role_name": "超级管理员",
+                "username": "123312",
+                "create_time": 1618835961,
+                "mobile": "13644444455",
+                "email": "1933586028@qq.com",
+                "mg_state": true
+            },
+            {
+                "id": 577,
+                "role_name": "超级管理员",
+                "username": "tery",
+                "create_time": 1622770493,
+                "mobile": null,
+                "email": null,
+                "mg_state": true
+            },
+            {
+                "id": 593,
+                "role_name": "超级管理员",
+                "username": "等地的",
+                "create_time": 1623220302,
+                "mobile": "18511111111",
+                "email": "dsd@qq.com",
+                "mg_state": false
+            },
+            {
+                "id": 639,
+                "role_name": "超级管理员",
+                "username": "${get_current_highest()}",
+                "create_time": 1624016033,
+                "mobile": null,
+                "email": null,
+                "mg_state": false
+            },
+            {
+                "id": 720,
+                "role_name": "超级管理员",
+                "username": "1624544662",
+                "create_time": 1624544663,
+                "mobile": null,
+                "email": null,
+                "mg_state": false
+            },
+            {
+                "id": 795,
+                "role_name": "超级管理员",
+                "username": "1625044240",
+                "create_time": 1625044313,
+                "mobile": null,
+                "email": null,
+                "mg_state": false
+            }
+        ]
+    },
+    "meta": {
+        "msg": "获取管理员列表成功",
+        "status": 200
+    }
+}

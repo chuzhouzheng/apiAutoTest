@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "get请求实现登录",
+    "uid" : "14752ace70a507c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865501859,
+      "stop" : 1626865502952,
+      "duration" : 1093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c1', 'get请求实现登录', '{\"num\":\"${sum_data(1,2)}\"}', 'login', 'get', 'params', '', '{\"username\": \"admin\", \"password\": \"\"}', '', 'select * from apis; select * from cases', '{\"$.meta.status\":400}']" ]
+  }, {
+    "name" : "post请求实现登录",
+    "uid" : "9027511b102b2e32",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865502955,
+      "stop" : 1626865503104,
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c2', 'post请求实现登录', '', 'login', 'post', 'data', '', '{\"username\": \"admin\", \"password\": \"123456\"}', '{\"token\": \"$.data.token\", \"userId\": \"$.data.id\", \"meta\": \"$.meta\"}', 'select * from cases where id=${userId};', '{\"$.meta\":{ \"msg\": \"登录成功\", \"status\": 200 }}']" ]
+  }, {
+    "name" : "get请求查询用户数据列表",
+    "uid" : "e4dc9295ad5a92ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865503108,
+      "stop" : 1626865503980,
+      "duration" : 872
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c3', 'get请求查询用户数据列表', '{\"Authorization\": \"${token}\"}', 'users', 'get', 'params', '', '{\"pagenum\": 1, \"pagesize\": 12, \"meta\": ${meta}, \"userId\": ${userId}}', '', '', '{\"$.meta\":{\"msg\": \"获取管理员列表成功\", \"status\": 200}}']" ]
+  }, {
+    "name" : "get请求查询用户数据列表",
+    "uid" : "ab676e3abe986596",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1626865503985,
+      "stop" : 1626865504047,
+      "duration" : 62
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c4', 'get请求查询用户数据列表', '', 'users', 'get', 'data', '', '{\"pagenum\": 1, \"pagesize\": \"12\"}', '', '', '{\"$.meta\":${meta}}']" ]
+  }, {
+    "name" : "添加用户正常接口数据",
+    "uid" : "a48cece90037d5f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865504121,
+      "stop" : 1626865505982,
+      "duration" : 1861
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c5', '添加用户正常接口数据', '{\"Authorization\": \"${token}\"}', 'users', 'post', 'data', '', '{\"username\": \"${get_current_highest()}\",\"password\": \"123456\"}', '{\"userId\": \"$.data.id\",\"userId5\":\"$.data.id\",\"create_time\":\"$.data.create_time\"}', '', '{\"$.meta\":{\"msg\":\"创建成功\",\"status\":201}}']" ]
+  }, {
+    "name" : "修改用户状态接口",
+    "uid" : "780493e83a60dbc7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865505985,
+      "stop" : 1626865506970,
+      "duration" : 985
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c6', '修改用户状态接口', '{\"Authorization\": \"${token}\"}', 'users/${userId}/state/${create_time}', 'put', 'data', '', '', '', '', '{\"$.meta\":{\"msg\": \"设置状态成功\", \"status\": 200}}']" ]
+  }, {
+    "name" : "修改用户状态为2",
+    "uid" : "8004a37bf8745ec1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865506975,
+      "stop" : 1626865507019,
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c7', '修改用户状态为2', '{\"Authorization\": \"${token}\"}', 'users/${userId5}/state/2', 'put', 'data', '', '', '', '', '{\"$.meta\":{\"msg\": \"设置状态成功\", \"status\": 200}}']" ]
+  }, {
+    "name" : "删除用户zy7y",
+    "uid" : "4d7ffd1ad01d2ad4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865507024,
+      "stop" : 1626865507072,
+      "duration" : 48
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c8', '删除用户zy7y', '${set_token(\"${token}\")}', 'users/${userId}', 'delete', 'params', '', '', '', '', '{\"$.meta\":{\"msg\": \"删除成功\", \"status\": 200}}']" ]
+  }, {
+    "name" : "调试自定义函数功能",
+    "uid" : "75fff848cbb498d7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865507077,
+      "stop" : 1626865507119,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c17', '调试自定义函数功能', '{\"Authorization\": \"${token}\"}', 'users/', 'post', 'data', '', '{\"username\": \"tery\",\"password\": \"${sum_data(1,3)}\"}', '', '', '{\"$.meta.msg\": \"用户名已存在\"}']" ]
+  }, {
+    "name" : "调试运算新功能,从响应提取后运算",
+    "uid" : "43f778dc78ca24be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1626865507122,
+      "stop" : 1626865507972,
+      "duration" : 850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c18', '调试运算新功能,从响应提取后运算', '{\"Authorization\": \"${token}\"}', 'users/', 'post', 'data', '', '{\"username\": \"tery\",\"password\": ${get_current_highest()}}', '', '', '{\"$.meta.msg\": \"成功\"}']" ]
+  }, {
+    "name" : "调试函数sum_data(),从path需要运算",
+    "uid" : "5827ac03d20591d7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626865507988,
+      "stop" : 1626865508030,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['c19', '调试函数sum_data(),从path需要运算', '{\"Authorization\": \"${token}\"}', 'users/${sum_data(${userId}, 2)}/', 'put', 'data', '', '{\"username\": \"tery\",\"password\": ${sum_data(${userId5}, 66)}, \"timer\":  ${get_current_highest()}, \"timer_str\": \" ${get_current_highest()}\"}', '', '', '{${userId}:${userId5}}']" ]
+  } ]
+}

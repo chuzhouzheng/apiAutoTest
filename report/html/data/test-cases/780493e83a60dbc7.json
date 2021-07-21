@@ -1,0 +1,222 @@
+{
+  "uid" : "780493e83a60dbc7",
+  "name" : "修改用户状态接口",
+  "fullName" : "test.test_api#test_main",
+  "historyId" : "9b58e419aa66c81ba5e26368887473ad",
+  "time" : {
+    "start" : 1626865505985,
+    "stop" : 1626865506970,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1626865505985,
+      "stop" : 1626865505985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址: http://api.zreai.com:606/api/private/v1/users/944/state/1626865505",
+      "time" : {
+        "start" : 1626865505986,
+        "stop" : 1626865505986,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1626865505986,
+        "stop" : 1626865505987,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1725133615474c17",
+        "name" : "请求头",
+        "source" : "1725133615474c17.json",
+        "type" : "application/json",
+        "size" : 420
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "请求数据",
+      "time" : {
+        "start" : 1626865505987,
+        "stop" : 1626865505987,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a90e262cced400d7",
+        "name" : "请求数据",
+        "source" : "a90e262cced400d7.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "响应耗时(s): 0.976258",
+      "time" : {
+        "start" : 1626865506966,
+        "stop" : 1626865506966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1626865506966,
+        "stop" : 1626865506967,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17c06c24d32c2904",
+        "name" : "响应结果",
+        "source" : "17c06c24d32c2904.json",
+        "type" : "application/json",
+        "size" : 244
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "当前可用参数池",
+      "time" : {
+        "start" : 1626865506967,
+        "stop" : 1626865506968,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f9d3cdc3a733869",
+        "name" : "当前可用参数池",
+        "source" : "9f9d3cdc3a733869.json",
+        "type" : "application/json",
+        "size" : 322
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1626865506969,
+        "stop" : 1626865506969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb7319ebdbfa65b9",
+        "name" : "第1个断言",
+        "source" : "fb7319ebdbfa65b9.json",
+        "type" : "application/json",
+        "size" : 119
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9dd419147eac4093",
+      "name" : "stderr",
+      "source" : "9dd419147eac4093.txt",
+      "type" : "text/plain",
+      "size" : 1462
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "host",
+    "value" : "zhouu.local"
+  }, {
+    "name" : "thread",
+    "value" : "42030-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['c6', '修改用户状态接口', '{\"Authorization\": \"${token}\"}', 'users/${userId}/state/${create_time}', 'put', 'data', '', '', '', '', '{\"$.meta\":{\"msg\": \"设置状态成功\", \"status\": 200}}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "780493e83a60dbc7.json",
+  "parameterValues" : [ "['c6', '修改用户状态接口', '{\"Authorization\": \"${token}\"}', 'users/${userId}/state/${create_time}', 'put', 'data', '', '', '', '', '{\"$.meta\":{\"msg\": \"设置状态成功\", \"status\": 200}}']" ]
+}

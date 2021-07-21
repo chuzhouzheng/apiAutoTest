@@ -1,0 +1,16 @@
+[32m2021-07-21 19:05:01.858[0m | [34m[1mDEBUG   [0m | [36mapi.base_requests[0m:[36msend_request[0m:[36m38[0m - [34m[1m用例进行处理前数据: 
+ 接口路径: login 
+ 请求参数: {"username": "admin", "password": ""} 
+  提取参数:  
+ 后置sql: select * from apis; select * from cases 
+ 预期结果: {"$.meta.status":400} 
+ [0m
+[32m2021-07-21 19:05:02.949[0m | [1mINFO    [0m | [36mapi.base_requests[0m:[36msend_api[0m:[36m99[0m - [1m
+最终请求地址:http://api.zreai.com:606/api/private/v1/login?username=admin&password=
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36', 'num': '3'}
+请求参数:{'username': 'admin', 'password': ''}
+上传文件:None
+响应数据:{'data': None, 'meta': {'msg': '参数错误', 'status': 400}}[0m
+[32m2021-07-21 19:05:02.950[0m | [1mINFO    [0m | [36mtools.data_process[0m:[36massert_result[0m:[36m130[0m - [1m第1个断言,实际结果:400 | 预期结果:400 
+断言结果 True[0m

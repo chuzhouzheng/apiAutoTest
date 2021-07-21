@@ -1,0 +1,213 @@
+{
+  "5777368728cab34aec99bce292e15e60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75fff848cbb498d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865507077,
+        "stop" : 1626865507119,
+        "duration" : 42
+      }
+    } ]
+  },
+  "9b58e419aa66c81ba5e26368887473ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "780493e83a60dbc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865505985,
+        "stop" : 1626865506970,
+        "duration" : 985
+      }
+    } ]
+  },
+  "25f6ba9e78828713a480fcdbed4cfa82" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43f778dc78ca24be",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 第1个断言失败 -|- 实际结果:用户名已存在 || 预期结果: 成功",
+      "time" : {
+        "start" : 1626865507122,
+        "stop" : 1626865507972,
+        "duration" : 850
+      }
+    } ]
+  },
+  "e48abca8fb0895e685397860fb6393f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d7ffd1ad01d2ad4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865507024,
+        "stop" : 1626865507072,
+        "duration" : 48
+      }
+    } ]
+  },
+  "94c53f645702c06e17118fd92e09f479" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8004a37bf8745ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865506975,
+        "stop" : 1626865507019,
+        "duration" : 44
+      }
+    } ]
+  },
+  "3a098e261ee7b9115a8be890393002aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4dc9295ad5a92ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865503108,
+        "stop" : 1626865503980,
+        "duration" : 872
+      }
+    } ]
+  },
+  "f9a3a528aa08d345b131e068670a2332" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab676e3abe986596",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 第1个断言失败 -|- 实际结果:{'msg': 'pagenum 参数错误', 'status': 400} || 预期结果: {'msg': '登录成功', 'status': 200}",
+      "time" : {
+        "start" : 1626865503985,
+        "stop" : 1626865504047,
+        "duration" : 62
+      }
+    } ]
+  },
+  "0d3dd93f9d173bd3e59f983349bd1202" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5827ac03d20591d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865507988,
+        "stop" : 1626865508030,
+        "duration" : 42
+      }
+    } ]
+  },
+  "d5345d39adc3d02ffcaf8f15af49ab18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9027511b102b2e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865502955,
+        "stop" : 1626865503104,
+        "duration" : 149
+      }
+    } ]
+  },
+  "8174f8ecb1004db16679a852ff5f760a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14752ace70a507c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865501859,
+        "stop" : 1626865502952,
+        "duration" : 1093
+      }
+    } ]
+  },
+  "0739167ffd7bddb403117cdf6fcb588f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a48cece90037d5f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626865504121,
+        "stop" : 1626865505982,
+        "duration" : 1861
+      }
+    } ]
+  }
+}

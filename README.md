@@ -23,12 +23,9 @@ pytest==6.0.1				# 参数化
 PyYAML==5.3.1				# 读取ymal
 requests==2.24.0			# 请求HTTP/HTTPS
 xlrd==1.2.0					# 读取excel
-yagmail==0.11.224			# 发送邮件
 PyMySQL==0.10.1				# 连接mysql数据库
 pytest-rerunfailures==9.1.1	# 用例失败重跑
-paramiko==2.7.2				# SSH2 连接
 xlwt==1.3.0                 # 写excel 用例文件
-mitmproxy==6.0.2            # 抓包工具
 ```
 ## 目录结构
 ```shell
